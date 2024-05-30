@@ -1348,3 +1348,104 @@ Received Import Request.
 Start importing Assets/ExternalDependencyManager/Editor/CHANGELOG.md using Guid(a8d928a6df80469ab6cd8eca7bf6d273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f72a23f120e9f4d838a0745e65cbd9') in 0.001074 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 515.132447 seconds.
+  path: Assets/Editor Default Resources/Firebase
+  artifactKey: Guid(f3b41edeb98fa424284f1b2eac035dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase using Guid(f3b41edeb98fa424284f1b2eac035dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e10c1090e232fd0c53fa26620d5c89') in 0.001177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.056630 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_analytics.png
+  artifactKey: Guid(dc218b335b1d14cd5ae532f65042d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_analytics.png using Guid(dc218b335b1d14cd5ae532f65042d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1663b7140d6eea9c04c8490d2ceaf4ef') in 0.018946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_config_dark.png
+  artifactKey: Guid(0ad9ef5fff5524355a9670c90a99cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_config_dark.png using Guid(0ad9ef5fff5524355a9670c90a99cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad8898b8ee83aae5ddd940fc1e13d51') in 0.017228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_database_dark.png
+  artifactKey: Guid(9f6bfa9d8aefb40dc92461c372c73b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_database_dark.png using Guid(9f6bfa9d8aefb40dc92461c372c73b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e45717fc71d5029a99b2110fac6a5d') in 0.017098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_crashlytics_dark.png
+  artifactKey: Guid(214009068900439da4a9cded17d58090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_crashlytics_dark.png using Guid(214009068900439da4a9cded17d58090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca62f60fb5f3fd315188bcee78c890a') in 0.025448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Editor Default Resources/Firebase/firebase_lockup.png
+  artifactKey: Guid(9f058f25e8e2d47cfb894951d4d7e48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/firebase_lockup.png using Guid(9f058f25e8e2d47cfb894951d4d7e48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cb2337ff9eac3969aacca81935cf71') in 0.016600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_storage_dark.png
+  artifactKey: Guid(2955864b938094f579ea9902b65ac10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_storage_dark.png using Guid(2955864b938094f579ea9902b65ac10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e7786807b8e659718bb0950eb940c3') in 0.016599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_auth.png
+  artifactKey: Guid(394b3ec4d60c24476a12e4ba696d9e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_auth.png using Guid(394b3ec4d60c24476a12e4ba696d9e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb1d1645724c553c6fc248f3d7f93f9') in 0.011657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_config.png
+  artifactKey: Guid(415eaec414af14d11955222a282aca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_config.png using Guid(415eaec414af14d11955222a282aca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e7162f6368c6cf1f579d453a4e11a8') in 0.016895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_cloud_messaging_dark.png
+  artifactKey: Guid(20c5b8a1f82cb4aadb77ca20683d2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_cloud_messaging_dark.png using Guid(20c5b8a1f82cb4aadb77ca20683d2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73019c526d2cf01b8a9ee78ec21f818b') in 0.018250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_dynamic_links_dark.png
+  artifactKey: Guid(9355a4671cfe4eef90879863318d1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_dynamic_links_dark.png using Guid(9355a4671cfe4eef90879863318d1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7eca793feba87815571bf6cf36fa3d0') in 0.016405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Editor Default Resources/Firebase/firebase_lockup_dark.png
+  artifactKey: Guid(b93330fc8ea08407dbc514b5101afa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/firebase_lockup_dark.png using Guid(b93330fc8ea08407dbc514b5101afa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ea9574c04df9f3c115bdbc1b48468d') in 0.014003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
