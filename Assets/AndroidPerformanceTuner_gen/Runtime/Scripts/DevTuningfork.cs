@@ -24,9 +24,12 @@ namespace Google.Android.PerformanceTuner {
           string.Concat(
             "ChRkZXZfdHVuaW5nZm9yay5wcm90byIjCgpBbm5vdGF0aW9uEhUKBXNjZW5l",
             "GAEgASgOMgYuU2NlbmUiHwoORmlkZWxpdHlQYXJhbXMSDQoFbGV2ZWwYASAB",
-            "KAUqRgoFU2NlbmUSEQoNU0NFTkVfSU5WQUxJRBAAEioKJlNDRU5FX0FTU0VU",
-            "U19DUkFaWURPVF9TQ0VORVNfR0FNRVNDRU5FEAFCIqoCH0dvb2dsZS5BbmRy",
-            "b2lkLlBlcmZvcm1hbmNlVHVuZXJiBnByb3RvMw=="));
+            "KAUqvgEKBVNjZW5lEhEKDVNDRU5FX0lOVkFMSUQQABIhCh1TQ0VORV9BU1NF",
+            "VFNfU0NFTkVTX1NDRU5FU19NTRABEigKJFNDRU5FX0FTU0VUU19TQ0VORVNf",
+            "U0NFTkVTX1NQT1JUTU9ERRACEisKJ1NDRU5FX0FTU0VUU19TQ0VORVNfU0NF",
+            "TkVTX0NMQVNTSUtNT0RFUxADEigKJFNDRU5FX0FTU0VUU19TQ0VORVNfU0NF",
+            "TkVTX1NQQUNFTU9ERRAEQiKqAh9Hb29nbGUuQW5kcm9pZC5QZXJmb3JtYW5j",
+            "ZVR1bmVyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Google.Android.PerformanceTuner.Scene), }, new pbr::GeneratedClrTypeInfo[] {
@@ -40,7 +43,10 @@ namespace Google.Android.PerformanceTuner {
   #region Enums
   public enum Scene {
     [pbr::OriginalName("SCENE_INVALID")] Invalid = 0,
-    [pbr::OriginalName("SCENE_ASSETS_CRAZYDOT_SCENES_GAMESCENE")] AssetsCrazydotScenesGamescene = 1,
+    [pbr::OriginalName("SCENE_ASSETS_SCENES_SCENES_MM")] AssetsScenesScenesMm = 1,
+    [pbr::OriginalName("SCENE_ASSETS_SCENES_SCENES_SPORTMODE")] AssetsScenesScenesSportmode = 2,
+    [pbr::OriginalName("SCENE_ASSETS_SCENES_SCENES_CLASSIKMODES")] AssetsScenesScenesClassikmodes = 3,
+    [pbr::OriginalName("SCENE_ASSETS_SCENES_SCENES_SPACEMODE")] AssetsScenesScenesSpacemode = 4,
   }
 
   #endregion

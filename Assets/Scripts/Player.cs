@@ -9,33 +9,69 @@ public class Player : MonoBehaviour
 	private Vector2 destination;
 
 	private Color color;
-
+	private Sprite sprite;
 	private bool follow;
 
-	private void OnTriggerEnter2D(Collider2D collision)
+	bool isKlassik;
+	bool isSports;
+	bool isSpace;
+
+    private void Start()
+    {
+		isKlassik = FindObjectOfType<GameManager>().isClassik;
+		isSports = FindObjectOfType<GameManager>().isSpace;
+        isSpace = FindObjectOfType<GameManager>().isSports;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
 	{
 		if (GameManager.Instance.uIManager.gameState != GameState.PLAYING || !collision.gameObject.CompareTag("Obstacle"))
 		{
 			return;
 		}
-		if (collision.gameObject.GetComponent<Obstacle>().color == color)
+		
+		if (isKlassik) 
 		{
-			AudioManager.Instance.PlayEffects(AudioManager.Instance.sameColor);
-			UnityEngine.Object.Destroy(collision.gameObject);
-			GameObject[] array = GameObject.FindGameObjectsWithTag("Obstacle");
-			for (int i = 0; i < array.Length; i++)
-			{
-				if (array[i].GetComponent<Obstacle>().hit)
-				{
-					UnityEngine.Object.Destroy(array[i]);
-				}
-			}
-		}
-		else
+            if (collision.gameObject.GetComponent<Obstacle>().color == color)
+            {
+                AudioManager.Instance.PlayEffects(AudioManager.Instance.sameColor);
+                UnityEngine.Object.Destroy(collision.gameObject);
+                GameObject[] array = GameObject.FindGameObjectsWithTag("Obstacle");
+                for (int i = 0; i < array.Length; i++)
+                {
+                    if (array[i].GetComponent<Obstacle>().hit)
+                    {
+                        UnityEngine.Object.Destroy(array[i]);
+                    }
+                }
+            }
+            else
+            {
+                AudioManager.Instance.PlayEffects(AudioManager.Instance.wrongColor);
+                GameManager.Instance.GameOver();
+            }
+        }
+		else 
 		{
-			AudioManager.Instance.PlayEffects(AudioManager.Instance.wrongColor);
-			GameManager.Instance.GameOver();
-		}
+            if (collision.gameObject.GetComponent<SpriteRenderer>().sprite == sprite)
+            {
+                AudioManager.Instance.PlayEffects(AudioManager.Instance.sameColor);
+                UnityEngine.Object.Destroy(collision.gameObject);
+                GameObject[] array = GameObject.FindGameObjectsWithTag("Obstacle");
+                for (int i = 0; i < array.Length; i++)
+                {
+                    if (array[i].GetComponent<Obstacle>().hit)
+                    {
+                        UnityEngine.Object.Destroy(array[i]);
+                    }
+                }
+            }
+            else
+            {
+                AudioManager.Instance.PlayEffects(AudioManager.Instance.wrongColor);
+                GameManager.Instance.GameOver();
+            }
+        }
 	}
 
 	public void SetColor(Color _color)
@@ -44,7 +80,14 @@ public class Player : MonoBehaviour
 		GetComponent<SpriteRenderer>().color = color;
 	}
 
-	private void Update()
+    public void SetSprite(Sprite _sprite)
+    {
+        sprite = _sprite;
+        GetComponent<SpriteRenderer>().sprite = sprite;
+    }
+
+
+    private void Update()
 	{
 		if (Input.GetMouseButtonDown(0))
 		{

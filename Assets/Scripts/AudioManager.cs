@@ -37,7 +37,7 @@ public class AudioManager : MonoBehaviour
 		{
 			UnityEngine.Object.Destroy(base.gameObject);
 		}
-		Object.DontDestroyOnLoad(base.gameObject);
+		//Object.DontDestroyOnLoad(base.gameObject);
 	}
 
 	private void Start()

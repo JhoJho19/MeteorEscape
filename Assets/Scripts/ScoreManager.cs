@@ -26,7 +26,7 @@ public class ScoreManager : MonoBehaviour
 
 	private void Awake()
 	{
-		Object.DontDestroyOnLoad(this);
+		//Object.DontDestroyOnLoad(this);
 		if (Instance == null)
 		{
 			Instance = this;

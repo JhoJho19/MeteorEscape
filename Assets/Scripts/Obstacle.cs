@@ -3,8 +3,9 @@ using UnityEngine;
 public class Obstacle : MonoBehaviour
 {
 	public Color color;
+    private Color colorWhite = Color.white;
 
-	public bool hit;
+    public bool hit;
 
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
@@ -18,6 +19,12 @@ public class Obstacle : MonoBehaviour
 	{
 		color = _color;
 		GetComponent<SpriteRenderer>().color = _color;
+		base.transform.position = _position;
+	}
+
+	public void InitObstacle(Vector2 _position)
+	{
+		GetComponent<SpriteRenderer>().color = colorWhite;
 		base.transform.position = _position;
 	}
 
