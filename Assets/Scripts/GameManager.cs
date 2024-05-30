@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
         }
         else if (isSports || isSpace)
         {
-            Sprite sprite = spritepack[Random.Range(0, colorTable.Length)];
+            Sprite sprite = spritepack[Random.Range(0, spritepack.Length)];
             player.GetComponent<Player>().SetSprite(sprite);
         }
         else
