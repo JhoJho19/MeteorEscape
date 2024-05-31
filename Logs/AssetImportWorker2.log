@@ -412,3 +412,181 @@ Received Import Request.
 Start importing Assets/New Sprites/PP.png using Guid(8994507fee31c114d885dcfe45968eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24da4ca93688df106cfae809c2edd8b') in 0.021892 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly 'Assets/ExternalDependencyManager/Editor/1.2.172/Google.IOSResolver.dll' will not be loaded due to errors:
+Unable to resolve reference 'UnityEditor.iOS.Extensions.Xcode'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.111 seconds
+Refreshing native plugins compatible for Editor in 18.53 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.226 seconds
+Domain Reload Profiling: 2333ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (753ms)
+		LoadAssemblies (546ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (219ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 22.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2754 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 83 unused Assets / (57.5 KB). Loaded Objects now: 3250.
+Memory consumption went from 115.2 MB to 115.2 MB.
+Total: 10.052900 ms (FindLiveObjects: 0.366300 ms CreateObjectMapping: 0.133300 ms MarkObjects: 9.377100 ms  DeleteObjects: 0.175000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4208.270627 seconds.
+  path: Assets/PauseGui.prefab
+  artifactKey: Guid(cd70e24a623773d4ab73e6d8adbf5a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PauseGui.prefab using Guid(cd70e24a623773d4ab73e6d8adbf5a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedd5a6a06143427de92fdac4a25c020') in 0.116914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 123
+========================================================================
+Received Import Request.
+  Time since last request: 2775.753596 seconds.
+  path: Assets/Scenes/Scenes/Space.unity
+  artifactKey: Guid(f9771eaf1b8249a4f80c9209684d5060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scenes/Space.unity using Guid(f9771eaf1b8249a4f80c9209684d5060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ad2fa7b9a1519f851d2ba1e2b5ee61') in 0.003078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.095236 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.615729 seconds.
+  path: Assets/ScenesPrefab
+  artifactKey: Guid(c92b8711b84c8b04cb317ccc9ed88740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab using Guid(c92b8711b84c8b04cb317ccc9ed88740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512fda55c7598c70a99fdbb7ae4b0ccc') in 0.000533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.514958 seconds.
+  path: Assets/ScenesPrefab/UIManager.prefab
+  artifactKey: Guid(3de6b05ccb77ee9459f51e8c9e518c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab/UIManager.prefab using Guid(3de6b05ccb77ee9459f51e8c9e518c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d795dc445f0b3307fab9ce340162e03') in 0.025248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.010335 seconds.
+  path: Assets/ScenesPrefab/Canvas (1).prefab
+  artifactKey: Guid(73d4d1f70c993cb4bbb12bc12129d151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab/Canvas (1).prefab using Guid(73d4d1f70c993cb4bbb12bc12129d151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e32e394e3b96e62c1bf3b9142d0884a') in 0.037034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ScenesPrefab/RightLine.prefab
+  artifactKey: Guid(9002b002f646bf3459522a3650818d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab/RightLine.prefab using Guid(9002b002f646bf3459522a3650818d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292944a065afb3a6d0db4a30f2e9cd24') in 0.003591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ScenesPrefab/ScoreManager.prefab
+  artifactKey: Guid(83d987e2e90c0e141b119b914d8a1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab/ScoreManager.prefab using Guid(83d987e2e90c0e141b119b914d8a1c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020096c0887bbb546cf1dd96a673ce51') in 0.004012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ScenesPrefab/LeftLine.prefab
+  artifactKey: Guid(c3fe30c2dba36f949a5b56e4ceafac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab/LeftLine.prefab using Guid(c3fe30c2dba36f949a5b56e4ceafac0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e271c61e4c22aa5f4ef7e6922c8af0e2') in 0.003244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ScenesPrefab/Main Camera.prefab
+  artifactKey: Guid(b34e2dc64840c464794fbc7d2251f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab/Main Camera.prefab using Guid(b34e2dc64840c464794fbc7d2251f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f949847bc4c63460f4b580a5e203e47') in 0.003662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ScenesPrefab/Player.prefab
+  artifactKey: Guid(b903c3bbb9024fd4e8e87b65dd2df9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab/Player.prefab using Guid(b903c3bbb9024fd4e8e87b65dd2df9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bf1243c16e799b4d20d680008c3514') in 0.245038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ScenesPrefab/BottomLine.prefab
+  artifactKey: Guid(f9413946888d51c409d1f1c1a709dd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab/BottomLine.prefab using Guid(f9413946888d51c409d1f1c1a709dd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65094d7b4eb60f30ecb60ce4f2b8ec4') in 0.002916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ScenesPrefab/GameManager.prefab
+  artifactKey: Guid(40437558c69186645aa6d739bce1c645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScenesPrefab/GameManager.prefab using Guid(40437558c69186645aa6d739bce1c645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5143e1cfef0b5ec60e6530892c1ec09') in 0.076624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 60
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
