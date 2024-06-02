@@ -7,14 +7,14 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Scenes/MM.unity
-    guid: d9583d1be6dbda247881d55df0a1c4e8
-  - enabled: 1
-    path: Assets/Scenes/Scenes/Sport.unity
-    guid: 8f2429af6ffe2e4468b01c772aad0dd9
+    guid: 4cb1aa805cf0e2c4fb978bc4a3ce89e0
   - enabled: 1
     path: Assets/Scenes/Scenes/Classik.unity
-    guid: 640ca832e4ff4eb47a6a6d28c8bdd2ec
+    guid: 8f2429af6ffe2e4468b01c772aad0dd9
   - enabled: 1
     path: Assets/Scenes/Scenes/Space.unity
-    guid: f9771eaf1b8249a4f80c9209684d5060
+    guid: 84dd6b0df62b9b14485fd0ccaea8918b
+  - enabled: 1
+    path: Assets/Scenes/Scenes/Sport.unity
+    guid: 6fe9c4a786f7153439788fd75a6307a3
   m_configObjects: {}
